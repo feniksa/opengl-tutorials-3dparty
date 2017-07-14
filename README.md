@@ -54,5 +54,5 @@ Specify CMAKE_PREFIX_PATH and CMAKE_LIBRARY_PATH to give cmake hint, where to fi
 * Download latest gtest
 * Unpack it, create build directory
 * Configure it with command:
-$ cmake -DCMAKE_BUILD_TYPE=release -DCMAKE_INSTALL_PREFIX="c:\usr\lib\gtest-1.8.0" -G "Visual Studio 15 2017 Win64" ..
+$ cmake -DCMAKE_INSTALL_PREFIX="c:\workspace\opengl-tutorials-3dparty\win64\rootfs\gtest-1.8.0" -G "Visual Studio 14 2015 Win64"  --target ALL_BUILD --config Release -DBUILD_SHARED_LIBS=ON ..
 * Open studio and run BUILD_ALL and INSTALL targets
