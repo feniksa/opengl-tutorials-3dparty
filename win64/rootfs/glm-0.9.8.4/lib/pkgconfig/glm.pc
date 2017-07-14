@@ -1,0 +1,7 @@
+prefix=C:/workspace/opengl-tutorials-3dparty/win64/rootfs/glm-0.9.8.4
+includedir=${prefix}/include
+
+Name: GLM
+Description: OpenGL Mathematics
+Version: 0.9.8
+Cflags: -I${includedir}
